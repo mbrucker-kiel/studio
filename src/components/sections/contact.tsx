@@ -71,7 +71,7 @@ export default function Contact() {
         <Form {...form}>
           <form
             onSubmit={form.handleSubmit(onSubmit)}
-            className="mx-auto max-w-xl space-y-8"
+            className="mx-auto mb-16 max-w-xl space-y-8"
           >
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
               <FormField
@@ -158,6 +158,23 @@ export default function Contact() {
             </Button>
           </form>
         </Form>
+        <div className="mx-auto max-w-5xl">
+          <h3 className="mb-4 text-center text-2xl font-bold tracking-tight">
+            Unser Büro
+          </h3>
+          <div className="overflow-hidden rounded-lg">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2370.403565691078!2d9.96752351584618!3d53.55744238002447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18f78d6596e19%3A0x1ad6858f6913c348!2sFeldstra%C3%9Fe%2038%2C%2020357%20Hamburg!5e0!3m2!1sde!2sde!4v1721303883656!5m2!1sde!2sde"
+              width="100%"
+              height="450"
+              style={{ border: 0 }}
+              allowFullScreen={true}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Kartenansicht des RAUM5 Büros"
+            ></iframe>
+          </div>
+        </div>
       </div>
     </section>
   );
