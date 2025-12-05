@@ -63,7 +63,7 @@ export default function Header() {
       {/* Mobile Menu */}
       <div
         className={cn(
-          'fixed inset-0 top-20 z-40 transform bg-background/80 backdrop-blur-lg md:hidden',
+          'fixed inset-0 top-20 z-40 transform bg-background md:hidden',
           isOpen ? 'translate-x-0' : 'translate-x-full',
           'transition-transform duration-300 ease-in-out'
         )}
