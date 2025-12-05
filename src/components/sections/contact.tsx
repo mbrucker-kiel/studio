@@ -166,11 +166,11 @@ export default function Contact() {
             <iframe
               width="100%"
               height="450"
-              src="https://www.openstreetmap.org/export/embed.html?bbox=10.12658%2C54.33159%2C10.12962%2C54.33314&amp;layer=mapnik&amp;marker=54.33236%2C10.12810"
               style={{ border: 0 }}
-              allowFullScreen={true}
               loading="lazy"
+              allowFullScreen
               referrerPolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps/embed/v1/place?key=&q=Feldstra%C3%9Fe%2038%2C%2024105%20Kiel%2C%20Germany"
               title="Kartenansicht des RAUM5 Büros in Kiel"
             ></iframe>
           </div>
