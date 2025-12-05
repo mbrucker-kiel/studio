@@ -1,0 +1,14 @@
+# Docker ignore file
+
+# Dependencies
+node_modules
+
+# Next.js build output
+.next
+
+# Optional: VSCode, local env files
+.vscode
+.env*.local
+
+# Git
+.git
