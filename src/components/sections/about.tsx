@@ -43,6 +43,12 @@ export default function About() {
                         fill
                         data-ai-hint={memberImage.imageHint}
                         className="object-cover"
+                        style={{
+                          objectPosition:
+                            member.name === 'Frederik Brinkmann'
+                              ? 'center 25%'
+                              : 'center',
+                        }}
                       />
                     )}
                     <AvatarFallback>
