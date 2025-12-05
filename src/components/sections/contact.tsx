@@ -71,7 +71,7 @@ export default function Contact() {
         <Form {...form}>
           <form
             onSubmit={form.handleSubmit(onSubmit)}
-            className="mx-auto mb-16 max-w-xl space-y-8"
+            className="mx-auto max-w-xl space-y-8"
           >
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
               <FormField
@@ -158,23 +158,6 @@ export default function Contact() {
             </Button>
           </form>
         </Form>
-        <div className="mx-auto max-w-5xl">
-          <h3 className="mb-4 text-center text-2xl font-bold tracking-tight">
-            Unser Büro
-          </h3>
-          <div className="overflow-hidden rounded-lg">
-            <iframe
-              width="100%"
-              height="450"
-              style={{ border: 0 }}
-              loading="lazy"
-              allowFullScreen
-              referrerPolicy="no-referrer-when-downgrade"
-              src="https://www.google.com/maps/embed/v1/place?key=&q=Feldstra%C3%9Fe%2038%2C%2024105%20Kiel%2C%20Germany"
-              title="Kartenansicht des RAUM5 Büros in Kiel"
-            ></iframe>
-          </div>
-        </div>
       </div>
     </section>
   );
