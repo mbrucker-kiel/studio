@@ -30,10 +30,10 @@ export default function Header() {
     <header
       className={cn(
         'sticky top-0 z-50 w-full transition-all duration-300',
-        hasScrolled || isOpen
+        hasScrolled && !isOpen
           ? 'border-b border-border/50 bg-background/80 backdrop-blur-lg'
-          : 'bg-transparent',
-        isOpen && '!bg-background/100'
+          : '',
+        isOpen ? 'bg-background' : 'bg-transparent'
       )}
     >
       <div className="container-max flex h-20 items-center justify-between px-6">
