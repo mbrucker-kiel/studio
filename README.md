@@ -1,5 +1,3 @@
-# Firebase Studio
+# Little Website Project 
 
-This is a NextJS starter in Firebase Studio.
-
-To get started, take a look at src/app/page.tsx.
+We have our own Room now, so i thought we needed a seroius internet 
