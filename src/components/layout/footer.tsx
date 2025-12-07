@@ -10,10 +10,10 @@ export default function Footer() {
             <Raum5Logo className="h-7 w-auto text-muted-foreground" />
           </Link>
           <div className="flex items-center gap-6 text-sm text-muted-foreground">
-            <Link href="#" className="transition-colors hover:text-foreground">
+            <Link href="/impressum" className="transition-colors hover:text-foreground">
               Impressum
             </Link>
-            <Link href="#" className="transition-colors hover:text-foreground">
+            <Link href="/datenschutz" className="transition-colors hover:text-foreground">
               Datenschutz
             </Link>
           </div>
