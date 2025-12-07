@@ -86,7 +86,19 @@ export default function Contact() {
         <p className="mb-12 text-center text-lg text-muted-foreground">
           Lassen Sie uns über Ihr nächstes Datenprojekt sprechen.
         </p>
-
+        {/* --- Kompetenztteam Kontaktinformationen --- */}
+        <div className="mb-8 text-center">
+          <h3 className="text-xl font-semibold mb-2">Sie erreichen unser Kompetenzteam auch direkt:</h3>
+          <div>
+            <span className="font-medium">Telefon: </span>
+            <a href="tel:+4943167937060" className="text-blue-600 hover:underline">+49 431 67937060</a>
+            {", "}
+            <a href="tel:+4943170551577" className="text-blue-600 hover:underline">70551577</a>
+            {", "}
+            <a href="tel:+4943172972056" className="text-blue-600 hover:underline">72972056</a>
+          </div>
+          <div className="text-sm text-muted-foreground mt-1">(Vorwahl Kiel: 0431)</div>
+        </div>
         <Form {...form}>
           <form
             onSubmit={form.handleSubmit(onSubmit)}
