@@ -1,8 +1,8 @@
 export const navLinks = [
   { href: '#services', label: 'Services' },
-  { href: '#cases', label: 'Cases' },
-  { href: '#about', label: 'About' },
-  { href: '#approach', label: 'Approach' },
+  { href: '#cases', label: 'Use Cases' },
+  { href: '#about', label: 'Über RAUM5' },
+  { href: '#approach', label: 'Vorgehen' },
   { href: '#contact', label: 'Kontakt' },
 ];
 
